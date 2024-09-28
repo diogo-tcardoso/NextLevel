@@ -60,14 +60,14 @@ Before you begin, ensure that you have the following software installed on your 
    Clone the NextLevel website repository using the following command:
    
    ```bash
-   git clone https://github.com/your-username/nextlevel-website.git
+   git clone https://github.com/diogo-tcardoso/NextLevel.git
    ```
 
 2. **Navigate to the Project Directory**:  
    Once cloned, navigate into the project folder:
    
    ```bash
-   cd nextlevel-website
+   cd NextLevel
    ```
 
 3. **Open the Project in Your Code Editor**:  
