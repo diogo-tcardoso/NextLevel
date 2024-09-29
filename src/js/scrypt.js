@@ -27,6 +27,6 @@ function gtag_report_conversion(url) {
 }
 
 function whatsappConversion (){
-    // redirecionarWhatsApp();
+    redirecionarWhatsApp();
     gtag_report_conversion();
 }
