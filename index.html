@@ -32,13 +32,7 @@
     <main class="container">
         <header class="header">
             <img src="./src/images/NexLevel-logo.png" alt="logo">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Entre em Contato</a>
-                    </li>
-                </ul>
-            </nav>
+            <button onclick="redirecionarWhatsApp()">Fale Conosco pelo WhatsApp</button>
         </header>
 
         <section class="home">
@@ -49,6 +43,7 @@
                 <h2>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed aliquam architecto explicabo, quaerat consectetur odio debitis voluptatibus animi expedita nemo ad magni illum qui voluptate doloribus ipsam quis sit provident.
                 </h2>
+                <button onclick="redirecionarWhatsApp()">Fale Conosco pelo WhatsApp</button>
             </div>
             <img src="./src/images/photo.png" alt="photo">
         </section>
@@ -57,5 +52,14 @@
 
         </footer>
     </main>
+    <script src="./src/js/scrypt.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16717290137"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16717290137');
+    </script>
 </body>
 </html>
