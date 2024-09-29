@@ -21,8 +21,7 @@ function gtag_report_conversion(url) {
         }
     };
     gtag('event', 'conversion', {
-        'send_to': 'AW-16717290137/ISewCM-BxdcZEJm1tqM-',
-        'event_callback': callback
+        'send_to': 'AW-16717290137/xAyNCKaVwdcZEJm1tqM-', 'event_callback': callback 
     });
     return false;
 }
