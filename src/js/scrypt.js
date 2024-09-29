@@ -13,3 +13,21 @@ function redirecionarWhatsApp() {
     // Redireciona o usuário
     window.location.href = urlWhatsApp;
 }
+
+function gtag_report_conversion(url) {
+    var callback = function () {
+        if (typeof(url) != 'undefined') {
+            window.location = url;
+        }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16717290137/ISewCM-BxdcZEJm1tqM-',
+        'event_callback': callback
+    });
+    return false;
+}
+
+function whatsappConversion (){
+    redirecionarWhatsApp();
+    gtag_report_conversion();
+}
